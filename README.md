@@ -57,7 +57,28 @@ git clone https://github.com/N1nEmAn/parallel-dev.git
 bash parallel-dev/install.sh
 ```
 
-### 方式三：手动复制
+### 方式三：零终端安装（让 Claude 自己装）
+
+完全不用离开 Claude Code 对话界面：
+
+```
+帮我安装 parallel-dev skill
+```
+
+Claude 会自动执行：
+1. `claude plugins marketplace add github:N1nEmAn/parallel-dev`
+2. `claude plugins install parallel-dev`
+3. 提示你重启 Claude Code 生效
+
+或者如果你不想用插件市场：
+
+```
+帮我克隆 https://github.com/N1nEmAn/parallel-dev.git 并安装到 skills 目录
+```
+
+Claude 会自己跑 `git clone` + `bash install.sh`。
+
+### 方式四：手动复制
 
 ```bash
 # 克隆到本地

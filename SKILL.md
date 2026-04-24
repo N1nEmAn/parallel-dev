@@ -16,6 +16,28 @@ level: 5
 - **人是技术负责人，不是 pair programmer** —— 你定方向、审测试计划、关键节点 spot-check，编码/测试/debug 由 Agent 自主完成。
 - **需求对齐不可并行** —— 这是唯一必须消耗你深度注意力的环节；对齐完成后，开发执行才可以齐发。
 
+## 零终端安装（用户在 Claude Code 对话中直接说）
+
+如果本 skill 尚未安装，用户无需离开 Claude Code：
+
+```
+用户：帮我安装 parallel-dev
+Claude（自动执行）：
+  1. Bash: claude plugins marketplace add github:N1nEmAn/parallel-dev
+  2. Bash: claude plugins install parallel-dev
+  3. 提示用户重启 Claude Code 后使用 /parallel-dev
+```
+
+或不用插件市场：
+```
+用户：帮我克隆 https://github.com/N1nEmAn/parallel-dev.git 并安装到 skills 目录
+Claude（自动执行）：
+  1. Bash: git clone https://github.com/N1nEmAn/parallel-dev.git /tmp/parallel-dev
+  2. Bash: bash /tmp/parallel-dev/install.sh
+```
+
+---
+
 ## Execution Protocol
 
 When invoked, Claude MUST follow this workflow. Do not ask the user "what do you want to do first" — analyze and decide automatically.
