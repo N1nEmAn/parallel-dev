@@ -1,0 +1,23 @@
+{
+  "name": "parallel-dev",
+  "version": "1.0.0",
+  "description": "Parallel AI development framework — auto-routes through req-alignment, TPDD, engineering discipline, and concurrency patterns based on task classification.",
+  "author": {
+    "name": "N1nEmAn",
+    "url": "https://github.com/N1nEmAn"
+  },
+  "homepage": "https://github.com/N1nEmAn/parallel-dev",
+  "repository": "https://github.com/N1nEmAn/parallel-dev",
+  "license": "MIT",
+  "keywords": [
+    "parallel",
+    "multi-agent",
+    "development",
+    "framework",
+    "tpdd",
+    "test-plan-driven",
+    "engineering-discipline",
+    "claude-code",
+    "omc"
+  ]
+}

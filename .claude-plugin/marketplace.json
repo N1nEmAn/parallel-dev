@@ -1,0 +1,39 @@
+{
+  "name": "parallel-dev",
+  "id": "parallel-dev",
+  "owner": {
+    "name": "N1nEmAn",
+    "url": "https://github.com/N1nEmAn"
+  },
+  "metadata": {
+    "description": "Multi-Agent Parallel Development Framework for Claude Code / OMC — Auto-routes through req-alignment, TPDD, engineering discipline, and concurrency patterns",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "parallel-dev",
+      "source": "./",
+      "description": "Parallel AI development framework with three keys (req-alignment, TPDD, engineering discipline) and four concurrency patterns. Lead auto-routes, user only approves.",
+      "version": "1.0.0",
+      "author": {
+        "name": "N1nEmAn",
+        "url": "https://github.com/N1nEmAn"
+      },
+      "homepage": "https://github.com/N1nEmAn/parallel-dev",
+      "repository": "https://github.com/N1nEmAn/parallel-dev",
+      "license": "MIT",
+      "keywords": [
+        "parallel",
+        "multi-agent",
+        "development",
+        "framework",
+        "tpdd",
+        "test-plan-driven",
+        "engineering-discipline",
+        "claude-code",
+        "omc"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
