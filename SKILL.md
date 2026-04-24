@@ -23,7 +23,8 @@ level: 5
 ```
 用户：帮我安装 parallel-dev
 Claude（自动执行）：
-  1. Bash: claude plugins marketplace add github:N1nEmAn/parallel-dev
+  1. Bash: claude plugins marketplace add N1nEmAn/parallel-dev
+     （如果 SSH 报错，改用：claude plugins marketplace add https://github.com/N1nEmAn/parallel-dev）
   2. Bash: claude plugins install parallel-dev
   3. 提示用户重启 Claude Code 后使用 /parallel-dev
 ```
